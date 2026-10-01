@@ -1,0 +1,19 @@
+{
+  "name": "discord-dashboard-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modular Discord bot backend for Railway.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.2",
+    "mongoose": "^8.18.0"
+  }
+}
